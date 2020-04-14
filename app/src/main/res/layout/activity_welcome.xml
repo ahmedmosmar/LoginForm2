@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/path2"
+    tools:context="com.example.ahmed.login_test.Welcome">
+
+    <LinearLayout
+      android:layout_marginTop="150dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:src="@drawable/afiaheart5"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_margin="-40dp"
+            android:layout_marginRight="-50dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:src="@drawable/af2"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:src="@drawable/af1"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="70dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+            android:onClick="loginForm1"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/raisednormal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+            <ImageView
+                android:onClick="loginForm2"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/raisednormal1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
